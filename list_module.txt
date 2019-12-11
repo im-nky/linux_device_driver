@@ -1,0 +1,10 @@
+
+/*Location of LKM : /lib/modules/$(uname -r) */
+
+/* To see location of Modules in above location */
+
+ls /lib/modules/$(uname -r)
+
+/* To see all the drivers for various devices in kernel*/
+
+ls /lib/modules/$(uname -r)/kernel/drivers/
