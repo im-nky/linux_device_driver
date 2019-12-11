@@ -22,6 +22,7 @@ vim : Editor
 gcc : compiler
 kernel-devel : Files for run and compile kernel code
 kernel-headers : File that describe system enviroment and used for compiling normal programs in user space.
+dkms : Dynamic kernel module support package
 make : tool for building module
 bzip2: Zipping tool
 
