@@ -1,10 +1,28 @@
+**** INTRODUCTION : Commands and Utilities ****
 
-/*Location of LKM : /lib/modules/$(uname -r) */
 
-/* To see location of Modules in above location */
+1. /*Location of LKM : /lib/modules/$(uname -r) */
+
+2. /* To see location of Modules in above location */
 
 ls /lib/modules/$(uname -r)
 
-/* To see all the drivers for various devices in kernel*/
+3. /* To see all the drivers for various devices in kernel*/
 
 ls /lib/modules/$(uname -r)/kernel/drivers/
+
+
+4. /* Required Packages */
+
+sudo apt-get install vim gcc kernel-devel kernel-headers dkms make bzip2
+
+/* Package Breakdown
+
+vim : Editor
+gcc : compiler
+kernel-devel : Files for run and compile kernel code
+kernel-headers : File that describe system enviroment and used for compiling normal programs in user space.
+make : tool for building module
+bzip2: Zipping tool
+
+*/
