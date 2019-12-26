@@ -1,0 +1,11 @@
+     Process       User_function       Kernel_function
+`````````````````````````````````````````````````````````
+1. load module      insmod               module_init()
+2. Open device      fopen                file_operation:open
+3. Read from        fread                file_operation:read
+    Device 
+4. write in         fwrite               file_operation:write 
+    device
+5. close the        fclose               file_operation:release
+    device
+6. Remove Module    rmmod                module_exit
