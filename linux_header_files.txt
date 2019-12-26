@@ -1,0 +1,25 @@
+#include <Linux/init.h>    : Basic Initialization.
+
+#include <linux/module.h>  : Writing any modules.
+
+#include <linux/version.h> : To get linux version related data.
+
+#include <linux/kernel.h>  : Allowed to use printk() function.
+
+#include <linux/fs.h>      : To perform file related operations.
+
+#include <linux/device.h>  : To perform device related operations.
+
+#include <linux/cdev.h>    : To create a character device driver with major and minor number.
+
+#include <linux/slab.h>    : Allow to use kmalloc() function.
+
+#include <linux/errno.h>   : File contains error codes.
+
+#include <linux/types.h>   : To get support to use data types like size_t ,dev_t .
+
+#include <linux/fcntl.h>   : For o_accmode .
+
+#include <asm/system.h>    : To use cli(), To use _flags .
+
+#include <asm/uaccess.h>   : functions like copy_from /to _users.
