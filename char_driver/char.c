@@ -115,6 +115,7 @@ void __exit chr_driver_exit(void) {
 module_init(chr_driver_init);
 module_exit(chr_driver_exit);
 
+// Author Info
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("NITIN KUMAR YADAV or im_nky@yahoo.com");
 MODULE_DESCRIPTION("My First Character Device Driver");
