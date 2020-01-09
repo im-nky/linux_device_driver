@@ -66,8 +66,7 @@ if (cdev_add(&c_dev, first, 1)== -1) {
 	return 0;
 }
 
-static void __exit
-ofcd_exit(void)/*Destructor*/
+static void __exit ofcd_exit(void)/*Destructor*/
 {
 	cdev_del(&c_dev);
 	device_destroy(cl, first);
