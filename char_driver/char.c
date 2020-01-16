@@ -11,10 +11,10 @@
 
 #define mem_size 1024
 
-dev_t dev = 0;
+dev_t dev = 0;	// structure to hold device number MAJOR+MINOR
 
 static struct class *dev_class;
-static struct cdev my_cdev;
+static struct cdev my_cdev;	// Structure for character devices
 uint8_t *kernel_buffer;
 
 static int __init chr_driver_init(void);
