@@ -1,0 +1,26 @@
+PCI Info text
+
+
+-> PCI bus is used to connect peripheral devices like graphics card and lan
+card to our computer. This bus is connected to CPU processor via south bridge 
+and then North Bridge.
+
+-> PCI bus has very good data transfer rate. Data transfer rate of PCIe is 
+250 MB per lane up to maximum of 8 GB.
+
+-> PCI has multiple types namely PCI, PCI Express, PCI Extender and Mini PCI.
+Clock rate of PCI devices is from 25 Hz to 33 Hz.
+
+-> PCI devices have three address regions:
+	1) Configuration Space
+	2) Input Output Port
+	3) Device Memory.
+Configuration space can work on only one slot at a time.
+
+-> Every PCI slot contains 4 interrupt pins. Only one pin can be used at a 
+time by CPU.
+
+-> During system boot, firmware of PCI device performs Hardware initialization 
+and every region gets connected to different address.
+
+->  
