@@ -28,4 +28,16 @@ bzip2: Zipping tool
 
 */
 
-Entery Point: An entry point is a function within a device driver that can be called by an external entity to get access to some driver functionality or to operate a device. Each device driver provides a standard set of functions as entry points. For the complete list of entry points for all driver types
+Entry Point: An entry point is a function within a device driver that can be 
+called by an external entity to get access to some driver functionality or to 
+operate a device. Each device driver provides a standard set of functions as 
+entry points. For the complete list of entry points for all driver types
+
+Task of Entry Points:
+a. Loading and unloading the driver
+
+b. Autoconfiguring the device – Autoconfiguration is the process of loading a 
+device driver's code and static data into memory so that the driver is registered 
+with the system.
+
+c. Providing I/O services for the driver
