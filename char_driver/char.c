@@ -117,5 +117,5 @@ module_exit(chr_driver_exit);
 
 // Author Info
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("NITIN KUMAR YADAV or im_nky@yahoo.com");
-MODULE_DESCRIPTION("My First Character Device Driver");
+MODULE_AUTHOR("Nitin Kumar Yadav");
+MODULE_DESCRIPTION("Psuedo Character Device Driver");
