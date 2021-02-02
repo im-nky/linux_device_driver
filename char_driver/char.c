@@ -15,7 +15,7 @@ dev_t dev = 0;	// structure to hold device number MAJOR+MINOR
 
 static struct class *dev_class;
 static struct cdev my_cdev;	// Structure for character devices
-uint8_t *kernel_buffer;
+uint8_t *kernel_buffer;		/* Device i.e. pseudo character device here */
 
 static int __init chr_driver_init(void);
 static void __exit chr_driver_exit(void);
