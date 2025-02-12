@@ -1,0 +1,9 @@
+Role of probing in TI linux mmc driver: 
+
+- Detects and matches the AM654 SDHCI controller using the device tree.
+- Initializes platform structures and memory-mapped I/O registers.
+- Configures and enables the clock for the controller.
+- Parses MMC properties from the device tree.
+- Sets up tuning functions for high-speed SD card operation.
+- Enables runtime power management and autosuspend.
+- Handles errors gracefully by rolling back initialization.
